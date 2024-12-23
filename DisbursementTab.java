@@ -239,9 +239,7 @@ public class DisbursementTab {
         ));
     }
 
-    //Create a method to fetch the disbursement records from the database "DSAstore" table "school_disbursement"
-    // And display them in the table.
-    //Database table info: payout_id (PK)(varchar), recipient_name, sent_for, amount, remark, and date (date type).
+    //Create a method to fetch the disbursement records 
     public void fetchDisbursementRecords() {
         try {
             connection = DriverManager.getConnection(url, DBusername, DBpassword);
@@ -281,7 +279,6 @@ public class DisbursementTab {
     }
 
     //Create a method to find a disbursement record by the payout_id in the JTable
-    //And display the record in the text fields in panel 2. Used the fetched data ONLY
     public void findDisbursementRecord() {
         try {
             //Establish a connection to the database
@@ -312,9 +309,7 @@ public class DisbursementTab {
         }
     }
 
-    //Create a method to create a new disbursement record in the database "DSAstore" table "school_disbursement"
-    //And display the record in the table.
-    //Database table info: payout_id (PK)(varchar), recipient_name, sent_for, amount, remark, and date (date type).
+    //Create a method to create a new disbursement
     public void createDisbursementRecord() {
     try {
         connection = DriverManager.getConnection(url, DBusername, DBpassword);
