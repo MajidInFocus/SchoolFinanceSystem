@@ -24,7 +24,7 @@ The School Financial Management System (SFMS) is a software application designed
    git clone https://github.com/MajidInFocus/SchoolFinanceSystem.git
    ```
 2. **Database Setup**:
-   - Import the provided SQL script into your MySQL database using phpMyAdmin or MySQL CLI.
+   - Add some sample data with appropriate fields. 
    - Update the database connection settings in the project code to match your environment.
 
 3. **Run the Application**:
