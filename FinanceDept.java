@@ -212,7 +212,8 @@ public class FinanceDept extends JFrame {
             login.setVisible(true);
         });
 
-        // Add tabs to the tabbedPane
+        // Add tabs to the tabbedPane--- 
+
         // Add the student tab
         StudentTab studentTab = new StudentTab();
         tabbedPane.addTab("Student", studentTab.getPanel());
