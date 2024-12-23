@@ -50,7 +50,6 @@ public class StudentTab {
     }
 
     // Method to create the student panel
-    // Method to create the student panel
     private void createStudentPanel() {
         // Initialize text fields components
         studentIDField = new JTextField();
@@ -198,10 +197,6 @@ public class StudentTab {
     }
 
     // Fetch and display the student records in the table
-    // Method to fetch student records from the database (DSAstore) table (student_fees)
-    // The database table have the following columns: student_id, name, grade, paid_fees, unpaid_fees**
-    // populate the data into the table.
-    // Store the fetched data in an appropriate data structure; for future DSA implementation
     private void fetchStudentRecords() {
         try {
             // Establish a connection to the database
@@ -244,7 +239,6 @@ public class StudentTab {
 
 
     // Method to search for a student record in the stored data structure and display the record in the TextFields
-    // Use Search Algorithm; DSA implementation
     private void searchStudentRecord() {
         try {
             String searchID = studentIDField.getText().trim();
@@ -265,8 +259,6 @@ public class StudentTab {
     }
 
     // Create a method to pay student fees and update the student record in the database (DSAstore) table (student_fees)
-    // The database table have the following columns: student_id, name, grade, paid_fees, unpaid_fees
-    // Update the student record in the database
 
     private void pay_updateStudentFees() {
         try {
@@ -327,8 +319,6 @@ public class StudentTab {
             }
         }
     }
-
-
 
     // Method to update the student panel
     private void updateStudentPanel() {
